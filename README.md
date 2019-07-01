@@ -7,7 +7,11 @@ By running this proxy, we can rectify that:
 ```
 # node xerox-proxy.js
 Created proxy at http://localhost:8560/
-Requests will be forwarded from and to http://xerox.:80/
+Requests will be forwarded to http://xerox.:80/
 ```
 
-Then simply point your browser to [http://localhost:8560/]().
+Then simply point your browser to [http://localhost:8560/](http://localhost:8560/).
+
+## Important
+
+Before you upgrade to the affected firmware version, make sure to disable https (SSL for pages) in the Xerox CentreWare webserver.
